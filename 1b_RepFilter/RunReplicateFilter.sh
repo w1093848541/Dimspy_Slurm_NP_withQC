@@ -9,7 +9,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=3
 #SBATCH --mem=100gb
-#SBATCH --time=20:00
+#SBATCH --time=50:00
 
 ##Move to correct WD
 cd $SLURM_SUBMIT_DIR
